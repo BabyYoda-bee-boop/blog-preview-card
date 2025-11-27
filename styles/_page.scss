@@ -1,0 +1,97 @@
+@use "./variables" as *;
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+.flex {
+  display: flex;
+}
+.container {
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  width: 93%;
+  max-width: 60em;
+  margin-inline: auto;
+}
+
+body {
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--clr-yellow);
+  font-family: var(--ff-primary);
+  line-height: var(--line-height-150);
+  color: var(--clr-gray-950);
+}
+
+.card {
+  background-color: var(--clr-white);
+  flex-direction: column;
+  gap: var(--padding-300);
+  padding: var(--padding-300);
+  margin-block: var(--padding-300);
+  max-width: 24em;
+  border: 1px solid var(--clr-gray-950);
+  border-radius: var(--border-radius-2);
+  box-shadow: var(--card-box-shadow);
+
+  &__img {
+    border-radius: var(--border-radius-1);
+    margin-inline: auto;
+    object-fit: cover;
+  }
+  &__body {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: var(--padding-150);
+  }
+  &__status {
+    font-size: var(--fs-300-clamp);
+    font-weight: 800;
+    background-color: var(--clr-yellow);
+    border-radius: var(--padding-50);
+    padding: var(--padding-50) var(--padding-150);
+  }
+  &__date {
+    font-size: var(--fs-300);
+    font-weight: 500;
+  }
+
+  &__title a {
+    text-decoration: none;
+    color: var(--clr-gray-950);
+    &:hover,
+    &:focus {
+      color: var(--clr-yellow);
+      cursor: pointer;
+    }
+  }
+
+  &__subtitle {
+    color: var(--clr-gray-500);
+  }
+  &__author {
+    font-size: var(--fs-300);
+    font-weight: 800;
+    &::before {
+      content: "";
+      display: inline-block;
+      height: 2rem;
+      width: 2rem;
+      background-image: url("../../assets/images/image-avatar.webp");
+      background-size: contain;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      margin-right: var(--padding-150);
+      box-shadow: 2px 2px 6px 0 #333;
+      border-radius: 50%;
+    }
+  }
+}

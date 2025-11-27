@@ -1,0 +1,29 @@
+
+:root {
+  //fonts and colors
+  --clr-yellow: hsl(47deg 88% 63%); 
+  --clr-gray-950: hsl(0 0% 7%);
+  --clr-gray-500: hsl(0 0% 42%); 
+  --clr-white: #fff;
+  --clr-black: #000;
+
+  --ff-primary: Figtree, sans-serif;
+  --line-height-150: 1.5;
+  --fs-700: 2rem;
+  --fs-400: 1rem;
+  --fs-300: calc(14rem / 16);
+  
+  --fs-300-clamp: calc(clamp(0.75rem, 0.125vw + 0.725rem, 0.875rem));
+  
+  // spacings
+  --padding-300: 1.5em;
+  --padding-150: 0.75em;
+  --padding-100: 0.5em;
+  --padding-50: 0.25em;
+
+  // other
+  --border-radius-1: 0.625rem;
+  --border-radius-2: 1.5rem;
+
+  --card-box-shadow: 8px 8px 0 0 var(--clr-black);
+}
