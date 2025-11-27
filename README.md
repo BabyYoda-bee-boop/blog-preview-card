@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Click here](https://www.frontendmentor.io/solutions/responsive-fonts-and-spacing-using-clamp-V02LTtmSVX)
+- Live Site URL: [Click here](https://wondrous-cactus-557011.netlify.app/)
 
 ## My process
 
@@ -50,5 +50,5 @@ I will optimise the usage of custom properties / variables and do the same proje
 ## Author
 
 - Website - [BabyYoda-bee-boop](https://github.com/BabyYoda-bee-boop)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@BabyYoda-bee-boop](https://www.frontendmentor.io/profile/BabyYoda-bee-boop)
 
